@@ -1,6 +1,6 @@
 # bharat_intern
 Internship tasks
-
+## Task-1
 ## Stock Price Prediction using LSTM
 
 
@@ -46,6 +46,69 @@ Example Result:
 ## Contributing
 
 Contributions to this project are welcome. If you find any issues or have enhancements to suggest, please feel free to open an issue or submit a pull request.
+
+
+## Task-2
+# Titanic Survivor Prediction
+
+This project focuses on predicting the survival of passengers on the Titanic using various machine learning models such as F1 score, logistic regression, precision score, and recall score. Extensive data visualization is performed to analyze factors that could potentially influence the survival of passengers on the Titanic.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+  
+
+## Introduction
+
+The sinking of the RMS Titanic is one of the most infamous maritime disasters in history. In this project, we aim to predict the survival of passengers aboard the Titanic using machine learning techniques. Various factors such as age, gender, ticket class, and more are considered to build and evaluate predictive models.
+
+## Dataset
+
+The dataset used for this project contains passenger information from the Titanic, including attributes like age, sex, ticket class, number of siblings/spouses, number of parents/children, fare, and cabin information. The dataset also contains a binary target variable indicating whether the passenger survived (1) or not (0).
+
+The dataset can be obtained from [https://www.kaggle.com/code/sakshijain27/titanic-survivors/input] 
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+
+2. Make sure you have Python installed (Python 3.6 or higher) along with Jupyter Notebook.
+
+3. Install the required dependencies:
+
+
+## Usage
+
+1. Open the Jupyter Notebook `titanic_survivors.ipynb`:
+
+
+2. Follow the step-by-step instructions in the notebook to explore and preprocess the dataset, perform data visualization to gain insights into the factors affecting survival, build machine learning models (F1 score, logistic regression, precision score, recall score), and evaluate their performance.
+
+3. The notebook provides detailed explanations for each step along with visualization of the results.
+
+## Results
+
+The machine learning models' performance metrics (F1 score, logistic regression, precision score, recall score) will be presented to assess how well they predict the survival of passengers on the Titanic. Visualizations are also provided to illustrate the importance of various factors influencing the survival rate.
+
+Example Result:
+
+![Survival Prediction Result](https://github.com/shithead999/bharat_intern/blob/main/titanic1.png)
+![ROC plot](https://github.com/shithead999/bharat_intern/blob/main/titanic2.png)
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have enhancements to suggest, please feel free to open an issue or submit a pull request.
+
+---
+
+
+
 
 
 
